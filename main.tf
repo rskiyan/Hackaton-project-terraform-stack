@@ -13,6 +13,7 @@ data "template_file" "script" {
 
 variable "project" {
   default = "fiap-lab"
+  
 }
 
 data "aws_vpc" "vpc" {
